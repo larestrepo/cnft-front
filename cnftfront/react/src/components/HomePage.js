@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+import { Alert, Table } from 'react-bootstrap'
 
 import {
   BrowserRouter as Router,
@@ -19,6 +20,23 @@ export default class HomePage extends Component {
         <Switch>
           <Route exact path="/">
             <p>This is the home page</p>
+
+            <Alert variant="success">
+                        <Alert.Heading>Query Tip Result</Alert.Heading>
+                        <Table >
+                            <thead>
+                                <tr>
+                                    <th>Era</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>Era</td>
+                                </tr>
+                            </tbody>
+                        </Table>
+                        <hr />
+            </Alert>
           </Route>
          
         </Switch>
