@@ -1,0 +1,7 @@
+cnftfront/manage.py
+cnftfront/db.sqlite3
+__pycache__
+__init__.py
+package.json
+package-lock.json
+node_modules
